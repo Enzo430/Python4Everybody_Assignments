@@ -2,14 +2,14 @@
 largest = None
 smallest = None
 while True:
-    num = input("Enter a number: ")
-    if  num == "done":
+    num = input("Enter a number: ") 
+    if  num == "done":                          
         break
     try:
         num = float(num)
     except:
-        print("Invalid input")
-        continue
+        print("Invalid input")          
+        continue                                #continue to the start to enter another number
     if  largest is None:
         largest = num
     elif num > largest:
