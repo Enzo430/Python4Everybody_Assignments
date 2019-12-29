@@ -13,5 +13,5 @@ maxva = None #most value
 for email,value in pool.items():
     if maxva is None or value > maxva:  #or maxva = 0 /n if value > maxva:
        most = email                     #which makes the code shorter
-       maxva = value
+       maxva = value                    #writing check nonetype before comparision in the if statement is because python cannot compare none to other type
 print(most,maxva)
