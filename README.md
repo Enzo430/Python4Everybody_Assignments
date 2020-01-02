@@ -1,5 +1,7 @@
 Python4Everyone_Assignments 
+
 Created at 12/24/2019 
+
 Designed for storing all my assignments from the specialization I am taking now: Python for Everybody from Coursera
 
 The specialization has four courses: 
