@@ -9,6 +9,7 @@ The specialization has four courses:
 2. Data Structures 
 3. Using Python to Access Web Data 
 4. Using Databases with Python
+
 To see detail description of each course, please navigate to the corresponding course folder.
 
 Ziwei Zhang (Github id: Enzo430) All Rights Reserved 
