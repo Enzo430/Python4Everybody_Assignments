@@ -1,12 +1,22 @@
-Chapter 11: Regular Expressions: Regular expressions are a very specialized language that allow us to succinctly search strings and extract data from strings. Regular expressions are a language unto themselves. It is not essential to know how to use regular expressions, but they can be quite useful and powerful.
+Chapter 11: Regular Expressions: 
 
-Chapter 12: Networks and Sockets: In this section we learn about the protocols that web browsers use to retrieve documents and web applications use to interact with Application Program Interfaces (APIs).
+Regular expressions are a very specialized language that allow us to succinctly search strings and extract data from strings. Regular expressions are a language unto themselves. It is not essential to know how to use regular expressions, but they can be quite useful and powerful.
 
-Chapter 12: Programs that Surf the Web: In this section we learn to use Python to retrieve data from web sites and APIs over the Internet.
+Chapter 12: Networks and Sockets: 
 
-Chapter 13: Web Services and XML: In this section, we learn how to retrieve and parse XML (eXtensible Markup Language) data.
+In this section we learn about the protocols that web browsers use to retrieve documents and web applications use to interact with Application Program Interfaces (APIs).
 
-Chapter 13: JSON and the REST Architecture: In this module, we work with Application Program Interfaces / Web Services using the JavaScript Object Notation (JSON) data format.
+Chapter 12: Programs that Surf the Web: 
+
+In this section we learn to use Python to retrieve data from web sites and APIs over the Internet.
+
+Chapter 13: Web Services and XML: 
+
+In this section, we learn how to retrieve and parse XML (eXtensible Markup Language) data.
+
+Chapter 13: JSON and the REST Architecture: 
+
+In this module, we work with Application Program Interfaces / Web Services using the JavaScript Object Notation (JSON) data format.
 
 Info from instructor:
 This course will show how one can treat the Internet as a source of data. We will scrape, parse, and read web data as well as access data using web APIs. We will work with HTML, XML, and JSON data formats in Python. This course will cover Chapters 11-13 of the textbook 'Python for Informatics'.
