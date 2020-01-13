@@ -18,7 +18,9 @@ Chapter 13: JSON and the REST Architecture:
 
 In this module, we work with Application Program Interfaces / Web Services using the JavaScript Object Notation (JSON) data format.
 
-Info from instructor:
+
+
+- Info from instructor:
 This course will show how one can treat the Internet as a source of data. We will scrape, parse, and read web data as well as access data using web APIs. We will work with HTML, XML, and JSON data formats in Python. This course will cover Chapters 11-13 of the textbook 'Python for Informatics'.
 
 We have put a lot of detail about the course into the document titled 'Syllabus' which can be found in Week 1, so please take a moment to review it. Week 2 is about installing Python so you can develop and run the programs needed to complete this course. In previous courses, installing Python was optional but as we write more complex programs the Python Playground and auto-grader cannot handle the programs we will write in this class.
