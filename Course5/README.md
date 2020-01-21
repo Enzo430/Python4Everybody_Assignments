@@ -26,6 +26,7 @@ This week you will discuss the analysis of your data to the class. While many of
 
 
 
+- From Instructor:
 
 Welcome to the Python for Everybody Capstone! Here you will build a series of applications to retrieve, process, and visualize data using elements you have learned from each course within the specialization. You will create visualizations to become familiar with the technologies, and will have optional assignments for exploring course concepts in even more detail and sharing your results with other students. Chapter 16 from the book “Python for Everybody: Exploring Data in Python 3” (available at www.py4e.com) will serve as the backbone for the capstone.
 
