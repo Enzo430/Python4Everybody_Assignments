@@ -6,7 +6,7 @@ import string
 conn = sqlite3.connect('index.sqlite')
 cur = conn.cursor()
 
-cur.execute('SELECT id, subject FROM Subjects')
+cur.execute('SELECT id, subject FROM Subjects') #just make use of the subject table
 subjects = dict()
 for message_row in cur :
     subjects[message_row[0]] = message_row[1]
@@ -15,15 +15,15 @@ for message_row in cur :
 cur.execute('SELECT subject_id FROM Messages')
 counts = dict()
 for message_row in cur :
-    text = subjects[message_row[0]]
+    text = subjects[message_row[0]]                                 #pulling out the subject based on the message
     text = text.translate(str.maketrans('','',string.punctuation))
-    text = text.translate(str.maketrans('','','1234567890'))
+    text = text.translate(str.maketrans('','','1234567890'))         #throws away punctuations and numbers in the word cloud
     text = text.strip()
     text = text.lower()
     words = text.split()
     for word in words:
         if len(word) < 4 : continue
-        counts[word] = counts.get(word,0) + 1
+        counts[word] = counts.get(word,0) + 1                      #dictionary of word counts
 
 x = sorted(counts, key=counts.get, reverse=True)
 highest = None
@@ -39,7 +39,7 @@ print('Range of counts:',highest,lowest)
 bigsize = 80
 smallsize = 20
 
-fhand = open('gword.js','w')
+fhand = open('gword.js','w')  #d3.js visualization
 fhand.write("gword = [")
 first = True
 for k in x[:100]:
@@ -47,7 +47,7 @@ for k in x[:100]:
     first = False
     size = counts[k]
     size = (size - lowest) / float(highest - lowest)
-    size = int((size * bigsize) + smallsize)
+    size = int((size * bigsize) + smallsize)             #how big the txt is  by using txt normalization
     fhand.write("{text: '"+k+"', size: "+str(size)+"}")
 fhand.write( "\n];\n")
 fhand.close()
